@@ -30,7 +30,13 @@ const guidesSidebar = [
     items: [
       { text: '', link: '' }
     ]
-  }
+  },
+  { 
+    text: 'GitHub', 
+    items: [
+      { text: 'Deploy to GitHub pages', link: '/guides/github/github-pages' }
+    ]
+  },
 ]
 
 const componentsSidebar = [

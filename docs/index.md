@@ -44,5 +44,4 @@ const bookmarks = [
   { name: 'Headless UI', link: 'https://headlessui.com/vue/menu', icon: 'headless-ui' },
   { name: 'Heroicons', link: 'https://heroicons.com', icon: 'heroicons' },
 ]
-
 </script>
