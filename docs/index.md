@@ -28,7 +28,7 @@ hero:
   <ul class="flex flex-wrap gap-6">
     <li v-for="bookmark in bookmarks" class="group h-32 w-32 shadow-md bg-[#252529] rounded-xl hover:bg-[#313136] hover:shadow-2xl hover:shadow-indigo-500/25 duration-200">
       <a :href="bookmark.link" target="_blank" class="flex flex-col justify-center items-center h-full w-full text-neutral-400 text-center text-sm font-semibold p-4 group-hover:text-white duration-200">
-        <img :src="`/icons/${bookmark.icon}.svg`" :alt="bookmark.icon" class="h-14 mb-4">
+        <img :src="withBase(`/icons/${bookmark.icon}.svg`)" :alt="bookmark.icon" class="h-14 mb-4">
         {{ bookmark.name }}
       </a>
     </li>
@@ -36,6 +36,8 @@ hero:
 </div>
 
 <script setup>
+import { withBase } from 'vitepress'
+
 const bookmarks = [
   { name: 'Vue', link: 'https://vuejs.org/guide/introduction', icon: 'vue' },
   { name: 'Nuxt', link: 'https://nuxt.com/docs', icon: 'nuxt' },
