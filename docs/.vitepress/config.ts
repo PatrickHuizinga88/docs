@@ -54,7 +54,7 @@ const componentsSidebar = [
   { 
     text: 'Form components', 
     items: [
-      { text: 'Buttons', link: '/components/form/button' },
+      { text: 'Buttons', link: '/components/form/buttons' },
       { text: 'Checkbox', link: '/components/form/checkbox' },
       { text: 'Input', link: '/components/form/input' },
       { text: 'File input', link: '/components/form/file-input' },
@@ -82,7 +82,22 @@ export default defineConfig({
   base: "/docs/",
   title: "Knowledge hub",
   description: "Personal front-end documentation",
+  head: [
+    ['link', { rel: "apple-touch-icon", sizes: "180x180", href: "/favicon/apple-touch-icon.png"}],
+    ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/favicon/favicon-32x32.png"}],
+    ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "/favicon/favicon-16x16.png"}],
+    ['link', { rel: "manifest", href: "/favicon/site.webmanifest"}],
+    ['link', { rel: "mask-icon", href: "/favicon/safari-pinned-tab.svg", color: "#6366f1"}],
+    ['meta', { name: "msapplication-TileColor", content: "#ffffff"}],
+    ['meta', { name: "theme-color", content: "#6366f1"}],
+  ],
   themeConfig: {
+    logo: { 
+      light: '/logo-dark.svg',
+      dark: '/logo-light.svg',
+      alt: 'Logo'
+    },
+    siteTitle: false,
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Guides', link: '/guides/' },

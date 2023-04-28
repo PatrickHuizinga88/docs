@@ -1,4 +1,4 @@
-# Input
+# Modal
 
 ## Prerequisites
 

@@ -1,4 +1,4 @@
-# Input
+# File input
 
 ## Prerequisites
 

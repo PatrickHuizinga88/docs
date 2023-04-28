@@ -1,4 +1,4 @@
-# Input
+# Buttons
 
 ## Prerequisites
 
