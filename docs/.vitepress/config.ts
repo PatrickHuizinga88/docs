@@ -79,6 +79,7 @@ const templatesSidebar = [
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/docs/",
   title: "Knowledge hub",
   description: "Personal front-end documentation",
   themeConfig: {
