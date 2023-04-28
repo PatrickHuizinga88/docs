@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as o,V as t}from"./chunks/framework.dd09f4ba.js";const m=JSON.parse('{"title":"Dropdown","description":"","frontmatter":{},"headers":[],"relativePath":"components/form/dropdown.md"}'),s={name:"components/form/dropdown.md"},n=t("",7),r=[n];function i(l,d,p,c,_,u){return a(),o("div",null,r)}const f=e(s,[["render",i]]);export{m as __pageData,f as default};
