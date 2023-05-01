@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig, useData } from 'vitepress'
 
 const guidesSidebar = [
   { 
@@ -83,11 +83,11 @@ export default defineConfig({
   title: "Knowledge hub",
   description: "Personal front-end documentation",
   head: [
-    ['link', { rel: "apple-touch-icon", sizes: "180x180", href: "/favicon/apple-touch-icon.png"}],
-    ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/favicon/favicon-32x32.png"}],
-    ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "/favicon/favicon-16x16.png"}],
-    ['link', { rel: "manifest", href: "/favicon/site.webmanifest"}],
-    ['link', { rel: "mask-icon", href: "/favicon/safari-pinned-tab.svg", color: "#6366f1"}],
+    ['link', { rel: "apple-touch-icon", sizes: "180x180", href: "/docs/favicon/apple-touch-icon.png"}],
+    ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/docs/favicon/favicon-32x32.png"}],
+    ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "/docs/favicon/favicon-16x16.png"}],
+    ['link', { rel: "manifest", href: "/docs/favicon/site.webmanifest"}],
+    ['link', { rel: "mask-icon", href: "/docs/favicon/safari-pinned-tab.svg", color: "#6366f1"}],
     ['meta', { name: "msapplication-TileColor", content: "#ffffff"}],
     ['meta', { name: "theme-color", content: "#6366f1"}],
   ],

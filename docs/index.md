@@ -39,7 +39,7 @@ features:
 <div class="container max-w-6xl py-6">
   <div class="flex justify-between items-center gap-4 border-t border-neutral-700 py-12">
     <h1 class="text-3xl font-bold">🚀 Quick access</h1>
-    <a href="/quick-access" class="font-medium text-sm text-indigo-500 py-1 hover:text-indigo-400 duration-150">All tools <span class="text-lg">&#8594;</span></a>
+    <a :href="withBase('/quick-access')" class="font-medium text-sm text-indigo-500 py-1 hover:text-indigo-400 duration-150">All tools <span class="text-lg">&#8594;</span></a>
   </div>
   <ul class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-4 sm:gap-6">
     <li v-for="bookmark in bookmarks" class="group h-32 shadow-md bg-[#252529] rounded-xl hover:bg-[#313136] hover:shadow-2xl hover:shadow-indigo-500/25 duration-200">
