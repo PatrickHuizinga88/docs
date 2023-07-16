@@ -16,5 +16,8 @@
       "tailwindcss": {},
       "autoprefixer": {}
     }
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.14"
   }
 }

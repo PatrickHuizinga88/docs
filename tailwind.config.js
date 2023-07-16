@@ -5,7 +5,15 @@ module.exports = {
 		'./docs/**/*.md',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: '#6366f1',
+        light: '#818cf8',
+        lighter: '#a5b4fc',
+        dark: '#4f46e5',
+        darker: '#4338ca'
+      }
+    },
     container: {
       center: true,
       padding: {
